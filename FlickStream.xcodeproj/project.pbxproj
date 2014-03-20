@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91E8AB1718DB7B69008BC3B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E8AB1618DB7B69008BC3B3 /* Foundation.framework */; };
+		91E8AB1918DB7B69008BC3B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E8AB1818DB7B69008BC3B3 /* CoreGraphics.framework */; };
+		91E8AB1B18DB7B69008BC3B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E8AB1A18DB7B69008BC3B3 /* UIKit.framework */; };
+		91E8AB2118DB7B69008BC3B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91E8AB1F18DB7B69008BC3B3 /* InfoPlist.strings */; };
+		91E8AB2318DB7B69008BC3B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E8AB2218DB7B69008BC3B3 /* main.m */; };
+		91E8AB2718DB7B69008BC3B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E8AB2618DB7B69008BC3B3 /* AppDelegate.m */; };
+		91E8AB2A18DB7B69008BC3B3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E8AB2818DB7B69008BC3B3 /* Main_iPhone.storyboard */; };
+		91E8AB2D18DB7B69008BC3B3 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E8AB2B18DB7B69008BC3B3 /* Main_iPad.storyboard */; };
+		91E8AB3018DB7B69008BC3B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E8AB2F18DB7B69008BC3B3 /* ViewController.m */; };
+		91E8AB3218DB7B69008BC3B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E8AB3118DB7B69008BC3B3 /* Images.xcassets */; };
+		91E8AB3918DB7B69008BC3B3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E8AB3818DB7B69008BC3B3 /* XCTest.framework */; };
+		91E8AB3A18DB7B69008BC3B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E8AB1618DB7B69008BC3B3 /* Foundation.framework */; };
+		91E8AB3B18DB7B69008BC3B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E8AB1A18DB7B69008BC3B3 /* UIKit.framework */; };
+		91E8AB4318DB7B69008BC3B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91E8AB4118DB7B69008BC3B3 /* InfoPlist.strings */; };
+		91E8AB4518DB7B69008BC3B3 /* FlickStreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E8AB4418DB7B69008BC3B3 /* FlickStreamTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91E8AB3C18DB7B69008BC3B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91E8AB0B18DB7B69008BC3B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91E8AB1218DB7B69008BC3B3;
+			remoteInfo = FlickStream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91E8AB1318DB7B69008BC3B3 /* FlickStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E8AB1618DB7B69008BC3B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91E8AB1818DB7B69008BC3B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		91E8AB1A18DB7B69008BC3B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		91E8AB1E18DB7B69008BC3B3 /* FlickStream-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlickStream-Info.plist"; sourceTree = "<group>"; };
+		91E8AB2018DB7B69008BC3B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91E8AB2218DB7B69008BC3B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91E8AB2418DB7B69008BC3B3 /* FlickStream-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlickStream-Prefix.pch"; sourceTree = "<group>"; };
+		91E8AB2518DB7B69008BC3B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		91E8AB2618DB7B69008BC3B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		91E8AB2918DB7B69008BC3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		91E8AB2C18DB7B69008BC3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		91E8AB2E18DB7B69008BC3B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		91E8AB2F18DB7B69008BC3B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		91E8AB3118DB7B69008BC3B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		91E8AB3718DB7B69008BC3B3 /* FlickStreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickStreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E8AB3818DB7B69008BC3B3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		91E8AB4018DB7B69008BC3B3 /* FlickStreamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlickStreamTests-Info.plist"; sourceTree = "<group>"; };
+		91E8AB4218DB7B69008BC3B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91E8AB4418DB7B69008BC3B3 /* FlickStreamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickStreamTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91E8AB1018DB7B69008BC3B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E8AB1918DB7B69008BC3B3 /* CoreGraphics.framework in Frameworks */,
+				91E8AB1B18DB7B69008BC3B3 /* UIKit.framework in Frameworks */,
+				91E8AB1718DB7B69008BC3B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E8AB3418DB7B69008BC3B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E8AB3918DB7B69008BC3B3 /* XCTest.framework in Frameworks */,
+				91E8AB3B18DB7B69008BC3B3 /* UIKit.framework in Frameworks */,
+				91E8AB3A18DB7B69008BC3B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91E8AB0A18DB7B69008BC3B3 = {
+			isa = PBXGroup;
+			children = (
+				91E8AB1C18DB7B69008BC3B3 /* FlickStream */,
+				91E8AB3E18DB7B69008BC3B3 /* FlickStreamTests */,
+				91E8AB1518DB7B69008BC3B3 /* Frameworks */,
+				91E8AB1418DB7B69008BC3B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91E8AB1418DB7B69008BC3B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91E8AB1318DB7B69008BC3B3 /* FlickStream.app */,
+				91E8AB3718DB7B69008BC3B3 /* FlickStreamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91E8AB1518DB7B69008BC3B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91E8AB1618DB7B69008BC3B3 /* Foundation.framework */,
+				91E8AB1818DB7B69008BC3B3 /* CoreGraphics.framework */,
+				91E8AB1A18DB7B69008BC3B3 /* UIKit.framework */,
+				91E8AB3818DB7B69008BC3B3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91E8AB1C18DB7B69008BC3B3 /* FlickStream */ = {
+			isa = PBXGroup;
+			children = (
+				91E8AB2518DB7B69008BC3B3 /* AppDelegate.h */,
+				91E8AB2618DB7B69008BC3B3 /* AppDelegate.m */,
+				91E8AB2818DB7B69008BC3B3 /* Main_iPhone.storyboard */,
+				91E8AB2B18DB7B69008BC3B3 /* Main_iPad.storyboard */,
+				91E8AB2E18DB7B69008BC3B3 /* ViewController.h */,
+				91E8AB2F18DB7B69008BC3B3 /* ViewController.m */,
+				91E8AB3118DB7B69008BC3B3 /* Images.xcassets */,
+				91E8AB1D18DB7B69008BC3B3 /* Supporting Files */,
+			);
+			path = FlickStream;
+			sourceTree = "<group>";
+		};
+		91E8AB1D18DB7B69008BC3B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91E8AB1E18DB7B69008BC3B3 /* FlickStream-Info.plist */,
+				91E8AB1F18DB7B69008BC3B3 /* InfoPlist.strings */,
+				91E8AB2218DB7B69008BC3B3 /* main.m */,
+				91E8AB2418DB7B69008BC3B3 /* FlickStream-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91E8AB3E18DB7B69008BC3B3 /* FlickStreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				91E8AB4418DB7B69008BC3B3 /* FlickStreamTests.m */,
+				91E8AB3F18DB7B69008BC3B3 /* Supporting Files */,
+			);
+			path = FlickStreamTests;
+			sourceTree = "<group>";
+		};
+		91E8AB3F18DB7B69008BC3B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91E8AB4018DB7B69008BC3B3 /* FlickStreamTests-Info.plist */,
+				91E8AB4118DB7B69008BC3B3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91E8AB1218DB7B69008BC3B3 /* FlickStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E8AB4818DB7B69008BC3B3 /* Build configuration list for PBXNativeTarget "FlickStream" */;
+			buildPhases = (
+				91E8AB0F18DB7B69008BC3B3 /* Sources */,
+				91E8AB1018DB7B69008BC3B3 /* Frameworks */,
+				91E8AB1118DB7B69008BC3B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlickStream;
+			productName = FlickStream;
+			productReference = 91E8AB1318DB7B69008BC3B3 /* FlickStream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91E8AB3618DB7B69008BC3B3 /* FlickStreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E8AB4B18DB7B69008BC3B3 /* Build configuration list for PBXNativeTarget "FlickStreamTests" */;
+			buildPhases = (
+				91E8AB3318DB7B69008BC3B3 /* Sources */,
+				91E8AB3418DB7B69008BC3B3 /* Frameworks */,
+				91E8AB3518DB7B69008BC3B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91E8AB3D18DB7B69008BC3B3 /* PBXTargetDependency */,
+			);
+			name = FlickStreamTests;
+			productName = FlickStreamTests;
+			productReference = 91E8AB3718DB7B69008BC3B3 /* FlickStreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91E8AB0B18DB7B69008BC3B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ross Tang Him";
+				TargetAttributes = {
+					91E8AB3618DB7B69008BC3B3 = {
+						TestTargetID = 91E8AB1218DB7B69008BC3B3;
+					};
+				};
+			};
+			buildConfigurationList = 91E8AB0E18DB7B69008BC3B3 /* Build configuration list for PBXProject "FlickStream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91E8AB0A18DB7B69008BC3B3;
+			productRefGroup = 91E8AB1418DB7B69008BC3B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91E8AB1218DB7B69008BC3B3 /* FlickStream */,
+				91E8AB3618DB7B69008BC3B3 /* FlickStreamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91E8AB1118DB7B69008BC3B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E8AB2D18DB7B69008BC3B3 /* Main_iPad.storyboard in Resources */,
+				91E8AB3218DB7B69008BC3B3 /* Images.xcassets in Resources */,
+				91E8AB2A18DB7B69008BC3B3 /* Main_iPhone.storyboard in Resources */,
+				91E8AB2118DB7B69008BC3B3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E8AB3518DB7B69008BC3B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E8AB4318DB7B69008BC3B3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91E8AB0F18DB7B69008BC3B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E8AB3018DB7B69008BC3B3 /* ViewController.m in Sources */,
+				91E8AB2718DB7B69008BC3B3 /* AppDelegate.m in Sources */,
+				91E8AB2318DB7B69008BC3B3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E8AB3318DB7B69008BC3B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E8AB4518DB7B69008BC3B3 /* FlickStreamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91E8AB3D18DB7B69008BC3B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91E8AB1218DB7B69008BC3B3 /* FlickStream */;
+			targetProxy = 91E8AB3C18DB7B69008BC3B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91E8AB1F18DB7B69008BC3B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91E8AB2018DB7B69008BC3B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		91E8AB2818DB7B69008BC3B3 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91E8AB2918DB7B69008BC3B3 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		91E8AB2B18DB7B69008BC3B3 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91E8AB2C18DB7B69008BC3B3 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		91E8AB4118DB7B69008BC3B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91E8AB4218DB7B69008BC3B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91E8AB4618DB7B69008BC3B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91E8AB4718DB7B69008BC3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91E8AB4918DB7B69008BC3B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlickStream/FlickStream-Prefix.pch";
+				INFOPLIST_FILE = "FlickStream/FlickStream-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		91E8AB4A18DB7B69008BC3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlickStream/FlickStream-Prefix.pch";
+				INFOPLIST_FILE = "FlickStream/FlickStream-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		91E8AB4C18DB7B69008BC3B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlickStream.app/FlickStream";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlickStream/FlickStream-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FlickStreamTests/FlickStreamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		91E8AB4D18DB7B69008BC3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlickStream.app/FlickStream";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlickStream/FlickStream-Prefix.pch";
+				INFOPLIST_FILE = "FlickStreamTests/FlickStreamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91E8AB0E18DB7B69008BC3B3 /* Build configuration list for PBXProject "FlickStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E8AB4618DB7B69008BC3B3 /* Debug */,
+				91E8AB4718DB7B69008BC3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91E8AB4818DB7B69008BC3B3 /* Build configuration list for PBXNativeTarget "FlickStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E8AB4918DB7B69008BC3B3 /* Debug */,
+				91E8AB4A18DB7B69008BC3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91E8AB4B18DB7B69008BC3B3 /* Build configuration list for PBXNativeTarget "FlickStreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E8AB4C18DB7B69008BC3B3 /* Debug */,
+				91E8AB4D18DB7B69008BC3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91E8AB0B18DB7B69008BC3B3 /* Project object */;
+}
