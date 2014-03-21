@@ -14,14 +14,14 @@
 		91E8AB2318DB7B69008BC3B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E8AB2218DB7B69008BC3B3 /* main.m */; };
 		91E8AB2718DB7B69008BC3B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E8AB2618DB7B69008BC3B3 /* AppDelegate.m */; };
 		91E8AB2A18DB7B69008BC3B3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E8AB2818DB7B69008BC3B3 /* Main_iPhone.storyboard */; };
-		91E8AB2D18DB7B69008BC3B3 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E8AB2B18DB7B69008BC3B3 /* Main_iPad.storyboard */; };
-		91E8AB3018DB7B69008BC3B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E8AB2F18DB7B69008BC3B3 /* ViewController.m */; };
 		91E8AB3218DB7B69008BC3B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E8AB3118DB7B69008BC3B3 /* Images.xcassets */; };
 		91E8AB3918DB7B69008BC3B3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E8AB3818DB7B69008BC3B3 /* XCTest.framework */; };
 		91E8AB3A18DB7B69008BC3B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E8AB1618DB7B69008BC3B3 /* Foundation.framework */; };
 		91E8AB3B18DB7B69008BC3B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E8AB1A18DB7B69008BC3B3 /* UIKit.framework */; };
 		91E8AB4318DB7B69008BC3B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91E8AB4118DB7B69008BC3B3 /* InfoPlist.strings */; };
 		91E8AB4518DB7B69008BC3B3 /* FlickStreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E8AB4418DB7B69008BC3B3 /* FlickStreamTests.m */; };
+		91E8AB5018DB7C07008BC3B3 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E8AB4F18DB7C07008BC3B3 /* TableViewController.m */; };
+		91E8AB5318DB7C5D008BC3B3 /* AROFlickrWebServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E8AB5218DB7C5D008BC3B3 /* AROFlickrWebServiceManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,15 +46,16 @@
 		91E8AB2518DB7B69008BC3B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		91E8AB2618DB7B69008BC3B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		91E8AB2918DB7B69008BC3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		91E8AB2C18DB7B69008BC3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		91E8AB2E18DB7B69008BC3B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		91E8AB2F18DB7B69008BC3B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		91E8AB3118DB7B69008BC3B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		91E8AB3718DB7B69008BC3B3 /* FlickStreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickStreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E8AB3818DB7B69008BC3B3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		91E8AB4018DB7B69008BC3B3 /* FlickStreamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlickStreamTests-Info.plist"; sourceTree = "<group>"; };
 		91E8AB4218DB7B69008BC3B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		91E8AB4418DB7B69008BC3B3 /* FlickStreamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickStreamTests.m; sourceTree = "<group>"; };
+		91E8AB4E18DB7C07008BC3B3 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		91E8AB4F18DB7C07008BC3B3 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		91E8AB5118DB7C5D008BC3B3 /* AROFlickrWebServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AROFlickrWebServiceManager.h; sourceTree = "<group>"; };
+		91E8AB5218DB7C5D008BC3B3 /* AROFlickrWebServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AROFlickrWebServiceManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +118,10 @@
 				91E8AB2518DB7B69008BC3B3 /* AppDelegate.h */,
 				91E8AB2618DB7B69008BC3B3 /* AppDelegate.m */,
 				91E8AB2818DB7B69008BC3B3 /* Main_iPhone.storyboard */,
-				91E8AB2B18DB7B69008BC3B3 /* Main_iPad.storyboard */,
-				91E8AB2E18DB7B69008BC3B3 /* ViewController.h */,
-				91E8AB2F18DB7B69008BC3B3 /* ViewController.m */,
+				91E8AB4E18DB7C07008BC3B3 /* TableViewController.h */,
+				91E8AB4F18DB7C07008BC3B3 /* TableViewController.m */,
+				91E8AB5118DB7C5D008BC3B3 /* AROFlickrWebServiceManager.h */,
+				91E8AB5218DB7C5D008BC3B3 /* AROFlickrWebServiceManager.m */,
 				91E8AB3118DB7B69008BC3B3 /* Images.xcassets */,
 				91E8AB1D18DB7B69008BC3B3 /* Supporting Files */,
 			);
@@ -231,7 +233,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91E8AB2D18DB7B69008BC3B3 /* Main_iPad.storyboard in Resources */,
 				91E8AB3218DB7B69008BC3B3 /* Images.xcassets in Resources */,
 				91E8AB2A18DB7B69008BC3B3 /* Main_iPhone.storyboard in Resources */,
 				91E8AB2118DB7B69008BC3B3 /* InfoPlist.strings in Resources */,
@@ -253,9 +254,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91E8AB3018DB7B69008BC3B3 /* ViewController.m in Sources */,
 				91E8AB2718DB7B69008BC3B3 /* AppDelegate.m in Sources */,
 				91E8AB2318DB7B69008BC3B3 /* main.m in Sources */,
+				91E8AB5318DB7C5D008BC3B3 /* AROFlickrWebServiceManager.m in Sources */,
+				91E8AB5018DB7C07008BC3B3 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,14 +294,6 @@
 				91E8AB2918DB7B69008BC3B3 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		91E8AB2B18DB7B69008BC3B3 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				91E8AB2C18DB7B69008BC3B3 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		91E8AB4118DB7B69008BC3B3 /* InfoPlist.strings */ = {
@@ -470,6 +464,7 @@
 				91E8AB4A18DB7B69008BC3B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91E8AB4B18DB7B69008BC3B3 /* Build configuration list for PBXNativeTarget "FlickStreamTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +473,7 @@
 				91E8AB4D18DB7B69008BC3B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
